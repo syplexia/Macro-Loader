@@ -1,6 +1,6 @@
 -- [[ CONFIGURATION ]]
 _G.AutoPickups = true
-_G.AntiLag = false
+_G.AntiLag = true
 
 -- [[ WEBHOOK SETTINGS ]]
 _G.SendWebhook = false -- Set to true to enable notifications
@@ -18,12 +18,10 @@ TDS:UnlockTimeScale()  -- Delete whole line to deactivate auto time-scale
 TDS:TimeScale(2)  -- Number = speed (0,0.5,1,1.5,2)
 
 TDS:Place("Cowboy", 16.50358, 0.98406, 30.45291)
-TDS:Skip()
 TDS:Upgrade(1)
 TDS:Place("Cowboy", 13.26107, 0.97961, 30.41171)
 TDS:Upgrade(2)
 TDS:Upgrade(1)
-TDS:Skip()
 TDS:Upgrade(2)
 TDS:Place("Cowboy", 13.31317, 0.97957, 30.27640)
 TDS:Upgrade(3)
