@@ -12,13 +12,10 @@ local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/syplexia/
 -- [[ START STRATEGY ]]
 TDS:Loadout("Ranger", "Cowboy", "DJ Booth", "Accelerator", "Turret")
 TDS:Mode("Frost")
-TDS:GameInfo("Summer Castle", {
-    Glass = false,
-})
+TDS:GameInfo("Summer Castle")
 
 TDS:UnlockTimeScale()  -- Delete whole line to deactivate auto time-scale
 TDS:TimeScale(2)  -- Number = speed (0,0.5,1,1.5,2)
-
 
 TDS:Place("Cowboy", 16.50358, 0.98406, 30.45291)
 TDS:Skip()
