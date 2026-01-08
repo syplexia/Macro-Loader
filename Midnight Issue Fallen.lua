@@ -2,7 +2,7 @@ local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/syplexia/
 
 TDS:Loadout("Crook Boss", "Farm", "Mercenary Base", "Ranger", "Accelerator")
 TDS:Mode("Fallen")
-TDS:GameInfo("Midnight lssue",
+TDS:GameInfo("Midnight Issue",
 
 TDS:Place("Crook Boss", 22.41861, 49.92740, -14.23745)
 TDS:Place("Farm", 46.52061, 49.92735, -5.63256)
