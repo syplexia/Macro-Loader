@@ -1,6 +1,6 @@
 -- [[ CONFIGURATION ]]
 _G.AutoPickups = true
-_G.AntiLag = false
+_G.AntiLag = true
 
 -- [[ WEBHOOK SETTINGS ]]
 _G.SendWebhook = false -- Set to true to enable notifications
